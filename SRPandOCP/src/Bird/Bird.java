@@ -41,6 +41,14 @@ public class Bird {
     * Monster Methods/God Classes
     *
      */
+
+
+    /*
+    * Cyclomatic Complexity - How Complex Is The Particular Piece Of Code
+    *Open and Closed Is Violating if based on type wwe have different implementation same as in Bird Class we have different fly method for different type of birds.
+    *  */
+
+
     public void fly(){
 
         if(type==BirdType.Eagle)
