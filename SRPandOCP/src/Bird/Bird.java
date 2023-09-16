@@ -1,6 +1,6 @@
 package Bird;
 
-public class Bird {
+public abstract class Bird {
 
     private String name;
 
@@ -49,9 +49,9 @@ public class Bird {
     *  */
 
 
-    public void fly(){
+    public abstract void fly();
 
-        if(type==BirdType.Eagle)
+    /* if(type==BirdType.Eagle)
         {
             System.out.println("Eagle is flying");
         }
@@ -63,9 +63,7 @@ public class Bird {
         } else if (type == BirdType.Sparrow) {
             System.out.println("Sparrow is flying");
 
-        }
-
-    }
+        }*/
 
     public void eat(){
 
